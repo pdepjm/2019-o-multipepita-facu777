@@ -9,14 +9,13 @@ object pepita {
 	}
 	method cuantoQuiereVolar(){
 		var kms1 = 0
-		var kms2 = 0
 		if (energia.between(300,400)){
 			kms1+= 10
 			}
 		if(energia %20 ==0){
 			kms1+= 15
 		}	
-		return energia/5 + kms1 + kms2
+		return energia/5 + kms1 + kms1
 	}
 	method 
 	method come(comida) {
